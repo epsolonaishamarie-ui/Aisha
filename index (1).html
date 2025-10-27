@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#multimedia" class="nav-link">Multimedia</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hello">Hello, I'm</span>
+                    <span class="name">Aisha Mharie C. Espolon</span>
+                </h1>
+
+                <p class="hero-description">
+               “The true way to live is to enjoy every moment as it passes, and surely it is in the everyday things around us that the beauty of life lies.”
+
+                </p>
+                
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                    <img src="fp.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <img src="ppp.jpg" alt="About">
+                        <div class="about-decoration"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Aisha Mharie C. Espolon</h3>
+                    <p>
+                       Hi, I'm Aisha Mharie, but you can call me Aisha or Sha. 
+                       
+                    </p>
+                    <p>
+I'm currently a student at Lapu Lapu City College taking the course Bachelor of Science and Industrial Technology. 
+I grew up with many lessons life taught me early, some of which shaped the way I saw the world — and myself.
+
+My Hobbies are playing online games, watching movies, and listening to music.
+Facts about me is I love to eat, I   love to sleep, and lastly I love color pink!  
+
+                    </p>
+                    
+    </section>
+
+
+
+    <!-- Multimedia Section -->
+    <section class="multimedia" id="multimedia">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Gallery</span>
+                <h2 class="section-title">Multimedia</h2>
+            </div>
+            <div class="multimedia-filters">
+                <button class="media-filter-btn active" data-media-filter="all">All</button>
+                <button class="media-filter-btn" data-media-filter="photos">Photos</button>
+                <button class="media-filter-btn" data-media-filter="videos">Videos</button>
+            </div>
+            <div class="multimedia-grid">
+                <!-- Photos -->
+                <div class="media-item" data-media-category="photos">
+                    <div class="media-wrapper">
+                        <img src="proxx.jpg" alt="Photo 1">
+                        <div class="media-overlay">
+                            <i class="fas fa-image media-icon"></i>
+                            <h4></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="photos">
+                    <div class="media-wrapper">
+                        <img src="final.png" alt="Photo 2">
+                        <div class="media-overlay">
+                            <i class="fas fa-image media-icon"></i>
+                            <h4>Autobiography</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="photos">
+                    <div class="media-wrapper">
+                        <img src="piccccc.jpg" alt="Photo 3">
+                        <div class="media-overlay">
+                            <i class="fas fa-image media-icon"></i>
+                            <h4>Wonders of Nature</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="photos">
+                    <div class="media-wrapper">
+                        <img src="520246840_1460645638408727_1122167624813066138_n.jpg" alt="Photo 4">
+                        <div class="media-overlay">
+                            <i class="fas fa-image media-icon"></i>
+                            <h4></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="photos">
+                    <div class="media-wrapper">
+                        <img src="java.jpg" alt="Photo 5">
+                        <div class="media-overlay">
+                            <i class="fas fa-image media-icon"></i>
+                            <h4>Hello Java-script</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Videos -->
+                <div class="media-item" data-media-category="videos">
+                    <div class="media-wrapper">
+                        <video poster="c377488b-cee3-48c5-a9bc-d72bad7b778e.mp4" controls>
+                            <source src="c377488b-cee3-48c5-a9bc-d72bad7b778e.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="media-overlay">
+                            <i class="fas fa-play-circle media-icon"></i>
+                            <h4>Performance Task # 4</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="videos">
+                    <div class="media-wrapper">
+
+                        <div class="media-item" data-media-category="videos">
+                    <div class="media-wrapper">
+                        <video poster="519652313_9901412613304093_1313845643546029772_n.mp4" controls>
+                            <source src="519652313_9901412613304093_1313845643546029772_n.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="media-overlay">
+                            <i class="fas fa-play-circle media-icon"></i>
+                            <h4>1st Video Project</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="videos">
+                    <div class="media-wrapper">
+                        <video poster="https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=600&q=80" controls>
+                            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="media-overlay">
+                            <i class="fas fa-play-circle media-icon"></i>
+                            <h4>Video Project 4</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-item" data-media-category="videos">
+                    <div class="media-wrapper">
+                        <video poster="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&q=80" controls>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="media-overlay">
+                            <i class="fas fa-play-circle media-icon"></i>
+                            <h4>Video Project 5</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>eaishamharie@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>09095823090</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Canjulao, Lapu Lapu City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p> <i class="fas fa-heart"></i> </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
